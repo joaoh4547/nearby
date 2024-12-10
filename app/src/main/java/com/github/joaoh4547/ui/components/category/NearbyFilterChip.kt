@@ -73,7 +73,7 @@ fun NearbyFilterChip(
 private fun NearbyFilterChipPreview() {
     NearbyFilterChip(
         category = NearbyCategory(
-            id = 1,
+            id = "1",
             name = "Alimentação"
         ),
         isSelected = true,
@@ -86,7 +86,7 @@ private fun NearbyFilterChipPreview() {
 private fun NearbyFilterChipNotSelectedPreview() {
     NearbyFilterChip(
         category = NearbyCategory(
-            id = 1,
+            id = "1",
             name = "Cinema"
         ),
         isSelected = false,

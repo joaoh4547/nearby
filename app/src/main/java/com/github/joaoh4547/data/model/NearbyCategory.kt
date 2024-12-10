@@ -4,7 +4,7 @@ import androidx.annotation.DrawableRes
 import com.github.joaoh4547.ui.components.category.NearbyFilterChip
 
 data class NearbyCategory(
-    val id: Int,
+    val id: String,
     val name: String
 ){
     @get:DrawableRes
