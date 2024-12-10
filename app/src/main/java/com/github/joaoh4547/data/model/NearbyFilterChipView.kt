@@ -11,7 +11,7 @@ enum class NearbyFilterChipView(
     COMPRAS(description = "Compras", icon = R.drawable.ic_shopping_bag),
     HOSPEDAGEM(description = "Hospedagem", icon = R.drawable.ic_bed),
     SUPERMERCADO(description = "Supermercado", icon = R.drawable.ic_shopping_cart),
-    ENTRATERIMENTO(description = "Entraterimento", icon = R.drawable.ic_movie),
+    ENTRATERIMENTO(description = "Cinema", icon = R.drawable.ic_movie),
     FARMACIA(description = "Farmacia", icon = R.drawable.ic_first_aid_kit),
     COMBUSIVEL(description = "Combustivel", icon = R.drawable.ic_gas_station),
     PADARIA(description = "Padaria", icon = R.drawable.ic_bakery);

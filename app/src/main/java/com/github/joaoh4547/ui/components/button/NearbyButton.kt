@@ -1,4 +1,4 @@
-package com.github.joaoh4547.ui.components
+package com.github.joaoh4547.ui.components.button
 
 
 import androidx.annotation.DrawableRes
