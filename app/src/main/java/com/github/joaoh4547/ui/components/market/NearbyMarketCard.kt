@@ -37,7 +37,7 @@ import com.github.joaoh4547.ui.theme.RedBase
 import com.github.joaoh4547.ui.theme.Typography
 
 @Composable
-fun NearbyFilterMarketCard(
+fun NearbyMarketCard(
     modifier: Modifier = Modifier,
     market: Market,
     onClick: (Market) -> Unit
@@ -102,7 +102,7 @@ fun NearbyFilterMarketCard(
 @Preview
 @Composable
 private fun NearbyFilterMarketCardPreview() {
-    NearbyFilterMarketCard(
+    NearbyMarketCard(
         modifier = Modifier.fillMaxWidth(),
         market = Market(
             id = "012576ea-4441-4b8a-89e5-d5f32104c7c4",
