@@ -20,7 +20,7 @@ import com.github.joaoh4547.data.model.mock.mockMarkets
 import com.github.joaoh4547.ui.theme.Gray500
 
 @Composable
-fun MarketDetailsInfo(modifier: Modifier = Modifier, market: Market) {
+fun NearbyMarketDetailsInfo(modifier: Modifier = Modifier, market: Market) {
     Column(modifier, verticalArrangement = Arrangement.spacedBy(16.dp)) {
         Text(text = "Informações", style = Typography.headlineSmall, color = Gray400)
         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -64,5 +64,5 @@ fun MarketDetailsInfo(modifier: Modifier = Modifier, market: Market) {
 @Preview
 @Composable
 private fun MarketDetailsInfoPreview() {
-    MarketDetailsInfo(modifier = Modifier.fillMaxWidth(), market = mockMarkets.first())
+    NearbyMarketDetailsInfo(modifier = Modifier.fillMaxWidth(), market = mockMarkets.first())
 }
